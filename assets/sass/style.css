@@ -10608,3 +10608,32 @@ p {
   background-color: var(--color-1);
   height: 100vh;
 } /*# sourceMappingURL=style.css.map */
+
+
+/*==========================================================================
+* Contact Icon CSS
+==========================================================================*/
+
+.contact-section .box {
+  width: 100%;
+  display: block;
+}
+.contact-section .box .icon {
+  width: 100px;
+  height: 100px;
+  background: var(--primary-color-1);
+  margin: 0 auto;
+  margin-bottom: 2em;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+.contact-section .box .icon span {
+  color: #fff;
+  font-size: 30px;
+}
+.contact-section .box h3 {
+  font-size: 18px;
+  font-weight: 900;
+}
